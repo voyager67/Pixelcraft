@@ -5,6 +5,7 @@ This intentionally skips .git and does not scan commit history. Use a
 history-aware secret scanner as well before publishing or after an exposure.
 """
 from pathlib import Path
+import hashlib
 import re
 import sys
 
@@ -14,6 +15,11 @@ SKIP_DIRS = {".git", ".venv", "node_modules", "__pycache__"}
 SENSITIVE_SUFFIXES = {
     ".pem", ".key", ".p12", ".pfx", ".sqlite", ".db", ".keystore",
     ".jks", ".crt", ".cer", ".der", ".p8", ".mobileprovision", ".ovpn",
+}
+# Only this reviewed, fixed video asset is exempt from the generic binary review.
+# A content hash prevents a different file at the same path from inheriting the exemption.
+REVIEWED_BINARY_MEDIA_SHA256 = {
+    "media/pixelcraft-workflow.mp4": "7e99f4967a652643f78d78ef1ddc27e0fed372a15cbdf60d4d93e859e48c16fb",
 }
 SENSITIVE_NAMES = {
     ".env", ".npmrc", ".pypirc", ".netrc", ".git-credentials",
@@ -91,6 +97,9 @@ for path in ROOT.rglob("*"):
     try:
         text = path.read_text(encoding="utf-8")
     except UnicodeDecodeError:
+        expected_hash = REVIEWED_BINARY_MEDIA_SHA256.get(relative_posix)
+        if expected_hash and hashlib.sha256(path.read_bytes()).hexdigest() == expected_hash:
+            continue
         findings.append((str(relative), 1, "binary-file-review"))
         continue
 
