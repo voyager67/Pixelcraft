@@ -6,14 +6,14 @@ Pixelcraft is a text-first skill collection. It does not require API keys, crede
 
 1. Run `python3 scripts/security_audit.py`.
 2. Run `python3 scripts/validate_skills.py`.
-3. Run a maintained, history-aware secret scanner (for example, Gitleaks in Git-history mode) across all refs. The Pixelcraft scanner intentionally skips `.git` and checks only the current working tree.
+3. The `.github/workflows/history-secrets.yml` workflow runs Gitleaks in Git-history mode across all fetched refs on pushes to `main`, pull requests targeting `main`, and manual dispatch. It downloads a pinned Gitleaks release and verifies its SHA-256 checksum before running.
 4. Review the full file list and `git diff --stat` / `git diff --check`.
 5. Inspect staged changes before committing. Check for secrets, personal data, private screenshots, customer records, proprietary source code, and unexpected binary files.
 6. Enable GitHub secret scanning and push protection where available.
 
 ## Scanner limitations
 
-The local scanner uses regular expressions and filename checks. It can produce false positives and can miss unknown token formats, encoded secrets, secrets split across strings, or sensitive information in images. It does not scan Git history, other branches that are not checked out, forks, caches, or copies already downloaded by others. A clean scan is not a guarantee. Review all files manually and use a maintained secret scanner in addition.
+The local Pixelcraft scanner uses regular expressions and filename checks. It can produce false positives and can miss unknown token formats, encoded secrets, secrets split across strings, or sensitive information in images. It does not scan Git history. The Gitleaks workflow scans the commit history reachable from the refs fetched by checkout; it does not scan forks, caches, or copies already downloaded by others. A clean scan is not a guarantee. Review files manually as well.
 
 ## If you find a secret
 
