@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">Pixelcraft — Make AI-assisted interfaces feel intentional</title>
+  <desc id="desc">A dark, violet-accented product illustration showing a design audit beside a refined interface. Pixelcraft is a 51-skill design-quality library.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080B15"/><stop offset="1" stop-color="#13172B"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7C6CFF" stop-opacity=".32"/><stop offset="1" stop-color="#41D9CC" stop-opacity=".06"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9A85FF"/><stop offset="1" stop-color="#56D9D0"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#20263B"/><stop offset="1" stop-color="#141A2B"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur in="SourceAlpha" stdDeviation="18"/><feOffset dy="16"/><feComponentTransfer><feFuncA type="linear" slope=".35"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9AA5C9" stroke-opacity=".07" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1440" height="760" rx="32" fill="url(#bg)"/>
+  <rect width="1440" height="760" rx="32" fill="url(#grid)"/>
+  <circle cx="1100" cy="340" r="390" fill="url(#glow)"/>
+  <path d="M0 610 C260 520 420 710 690 630 S1120 490 1440 590 V760 H0Z" fill="#11172A" opacity=".58"/>
+  <g transform="translate(86 70)">
+    <rect width="44" height="44" rx="13" fill="url(#accent)"/>
+    <path d="M12 29V15l10 8 10-8v14" stroke="#0C1020" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="62" y="31" fill="#F7F8FF" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="2">PIXELCRAFT</text>
+    <text x="1260" y="28" text-anchor="end" fill="#A8B0CD" font-family="Inter,Arial,sans-serif" font-size="15" letter-spacing="2">DESIGN QUALITY TOOLKIT</text>
+  </g>
+  <g transform="translate(88 232)">
+    <rect width="244" height="40" rx="20" fill="#8C7BFF" fill-opacity=".14" stroke="#9C8EFF" stroke-opacity=".45"/>
+    <circle cx="21" cy="20" r="5" fill="#A99BFF"/>
+    <text x="40" y="26" fill="#D7D1FF" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.4">51 SPECIALIST SKILLS</text>
+    <text x="0" y="130" fill="#F7F8FF" font-family="Inter,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-2">Less generic UI.</text>
+    <text x="0" y="210" fill="#F7F8FF" font-family="Inter,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-2">More intentional</text>
+    <text x="0" y="290" fill="#F7F8FF" font-family="Inter,Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-2">products.</text>
+    <rect x="0" y="326" width="82" height="5" rx="3" fill="url(#accent)"/>
+    <text x="0" y="382" fill="#B7BED4" font-family="Inter,Arial,sans-serif" font-size="22">An evidence-first skill library for auditing,</text>
+    <text x="0" y="416" fill="#B7BED4" font-family="Inter,Arial,sans-serif" font-size="22">repairing and verifying AI-assisted interfaces.</text>
+    <g transform="translate(0 476)">
+      <rect width="156" height="42" rx="11" fill="#ECEBFF"/>
+      <text x="78" y="27" text-anchor="middle" fill="#18152E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="800">EXPLORE SKILLS ↗</text>
+      <text x="180" y="27" fill="#A8B0CD" font-family="Inter,Arial,sans-serif" font-size="15">ChatGPT · Codex · compatible agents</text>
+    </g>
+  </g>
+  <g transform="translate(760 170)" filter="url(#shadow)">
+    <rect x="0" y="0" width="590" height="470" rx="24" fill="url(#panel)" stroke="#566080" stroke-opacity=".65"/>
+    <path d="M0 58H590" stroke="#566080" stroke-opacity=".55"/>
+    <circle cx="27" cy="29" r="5" fill="#FF7E8A"/><circle cx="47" cy="29" r="5" fill="#F6C76D"/><circle cx="67" cy="29" r="5" fill="#62D5A6"/>
+    <text x="295" y="34" fill="#AEB8D4" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="1.5">INTERFACE REVIEW</text>
+    <rect x="24" y="82" width="132" height="356" rx="14" fill="#101629" stroke="#313A58"/>
+    <rect x="42" y="104" width="94" height="10" rx="5" fill="#D6DBF2" opacity=".8"/>
+    <rect x="42" y="145" width="86" height="34" rx="8" fill="#8D7BFF" fill-opacity=".22" stroke="#9F91FF" stroke-opacity=".6"/>
+    <rect x="54" y="157" width="12" height="10" rx="2" fill="#B4A9FF"/><rect x="74" y="158" width="48" height="8" rx="4" fill="#E5E6F8" opacity=".8"/>
+    <g fill="#76819F"><rect x="54" y="202" width="73" height="7" rx="3"/><rect x="54" y="238" width="62" height="7" rx="3"/><rect x="54" y="274" width="78" height="7" rx="3"/><rect x="54" y="310" width="56" height="7" rx="3"/></g>
+    <text x="184" y="110" fill="#F1F3FF" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700">Workspace overview</text>
+    <text x="184" y="136" fill="#929DBB" font-family="Inter,Arial,sans-serif" font-size="12">A clearer hierarchy, built around real tasks.</text>
+    <rect x="184" y="160" width="174" height="100" rx="13" fill="#28304A" stroke="#566080" stroke-opacity=".65"/>
+    <text x="202" y="187" fill="#ABB5D2" font-family="Inter,Arial,sans-serif" font-size="11">ACTIVE PROJECTS</text>
+    <text x="202" y="231" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">12</text>
+    <path d="M302 231l12-13 12 7 15-20" fill="none" stroke="#76D7C5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="374" y="160" width="192" height="100" rx="13" fill="#28304A" stroke="#566080" stroke-opacity=".65"/>
+    <text x="392" y="187" fill="#ABB5D2" font-family="Inter,Arial,sans-serif" font-size="11">NEXT MILESTONE</text>
+    <text x="392" y="220" fill="#FFFFFF" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">Design review</text>
+    <rect x="392" y="235" width="126" height="5" rx="3" fill="#46506E"/><rect x="392" y="235" width="88" height="5" rx="3" fill="url(#accent)"/>
+    <rect x="184" y="278" width="382" height="160" rx="13" fill="#1B2339" stroke="#566080" stroke-opacity=".65"/>
+    <text x="204" y="309" fill="#F0F2FF" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">Priority work</text>
+    <g font-family="Inter,Arial,sans-serif" font-size="12">
+      <circle cx="210" cy="340" r="5" fill="#9B8AFF"/><text x="226" y="344" fill="#D8DDF0">Clarify the primary action</text><rect x="485" y="331" width="60" height="18" rx="9" fill="#8C7BFF" fill-opacity=".22"/><text x="515" y="344" text-anchor="middle" fill="#CFC7FF" font-size="10">HIGH</text>
+      <circle cx="210" cy="375" r="5" fill="#68D6C2"/><text x="226" y="379" fill="#D8DDF0">Unify spacing and type scale</text><rect x="485" y="366" width="60" height="18" rx="9" fill="#68D6C2" fill-opacity=".15"/><text x="515" y="379" text-anchor="middle" fill="#9CEBDD" font-size="10">MED</text>
+      <circle cx="210" cy="410" r="5" fill="#E8C27A"/><text x="226" y="414" fill="#D8DDF0">Check mobile action states</text><rect x="485" y="401" width="60" height="18" rx="9" fill="#E8C27A" fill-opacity=".15"/><text x="515" y="414" text-anchor="middle" fill="#F2D39E" font-size="10">NEXT</text>
+    </g>
+    <rect x="420" y="444" width="146" height="36" rx="10" fill="#8E80FF"/>
+    <text x="493" y="467" text-anchor="middle" fill="#101329" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800">REVIEW COMPLETE</text>
+  </g>
+  <g transform="translate(86 690)">
+    <text x="0" y="0" fill="#7884A7" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="1.5">INSPECT</text><text x="96" y="0" fill="#5A668A" font-family="Inter,Arial,sans-serif" font-size="13">→</text>
+    <text x="126" y="0" fill="#7884A7" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="1.5">DETECT</text><text x="221" y="0" fill="#5A668A" font-family="Inter,Arial,sans-serif" font-size="13">→</text>
+    <text x="251" y="0" fill="#7884A7" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="1.5">PRIORITIZE</text><text x="368" y="0" fill="#5A668A" font-family="Inter,Arial,sans-serif" font-size="13">→</text>
+    <text x="398" y="0" fill="#7884A7" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="1.5">REPAIR</text><text x="477" y="0" fill="#5A668A" font-family="Inter,Arial,sans-serif" font-size="13">→</text>
+    <text x="507" y="0" fill="#7884A7" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="1.5">VERIFY</text>
+  </g>
+</svg>

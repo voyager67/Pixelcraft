@@ -12,6 +12,10 @@
 
 </div>
 
+<p align="center">
+  <img src="media/pixelcraft-cover.svg" alt="Pixelcraft's 51-skill design-quality library, illustrated with a refined interface and design review." width="100%" />
+</p>
+
 ---
 
 > AI can generate a screen in seconds. Pixelcraft helps an agent recognise when that screen is generic, inconsistent, misleading, or unfinished—and improve it with evidence, not random decoration.
@@ -21,6 +25,18 @@
 Pixelcraft is a specialized skill library for **recognising and removing AI slop from interfaces**. It covers visual clichés, template convergence, spacing, typography, color, icons, copy, imagery, charts, dashboards, landing pages, responsive layouts, interactions, forms, empty states, and design-system drift.
 
 It is not an AI-authorship detector. A purple gradient, a rounded card, or an emoji does not prove that AI created a screen. Pixelcraft evaluates observable design quality and asks whether each choice serves the product and its users.
+
+## The workflow
+
+<p align="center">
+  <a href="media/pixelcraft-workflow.mp4">
+    <img src="media/pixelcraft-workflow.svg" alt="Pixelcraft's five steps: inspect, detect, prioritize, repair and verify. Click to open the short workflow video." width="100%" />
+  </a>
+</p>
+
+<p align="center"><a href="media/pixelcraft-workflow.mp4">▶ Watch the 5-second workflow preview (MP4)</a></p>
+
+<sub>Illustrative workflow preview, not a recording of a live agent run.</sub>
 
 ## The skill library
 
