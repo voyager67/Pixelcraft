@@ -160,16 +160,6 @@ logo, rating, and integration claim against supplied evidence. Do not invent rep
 6. **Verify** responsive layout, accessibility, behavior, and visual consistency.
 7. **Report** what changed and what could not be verified.
 
-## Publish to GitHub
-
-After extracting this repository into a new, empty directory, install and authenticate the GitHub CLI (`gh auth login`), review the files, and run:
-
-```bash
-./scripts/publish.sh
-```
-
-The script verifies the authenticated account is `voyager67`, runs both checks, refuses to overwrite an existing repository, creates a **public** `voyager67/pixelcraft` repository, and pushes the initial `main` branch. It never embeds or asks you to commit a token. It also configures the initial commit with GitHub's account-specific `noreply` email instead of reading your global Git email, and refuses to reuse an existing `.git` history. Review the script before running it.
-
 ## Security and privacy
 
 Pixelcraft contains plain-text agent instructions and a small standard-library validation/security scanner. It does not require API keys, accounts, third-party services, telemetry, or runtime network access.
