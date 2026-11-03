@@ -1,0 +1,7 @@
+interface:
+  display_name: "Empty State Repair"
+  short_description: "Replaces generic empty-state filler and decorative illustrations with clear..."
+  default_prompt: "Use empty-state-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

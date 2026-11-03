@@ -1,0 +1,7 @@
+interface:
+  display_name: "Responsive Slop Repair"
+  short_description: "Finds and fixes responsive slop such as desktop UI squeezed into mobile, overflow,..."
+  default_prompt: "Use responsive-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

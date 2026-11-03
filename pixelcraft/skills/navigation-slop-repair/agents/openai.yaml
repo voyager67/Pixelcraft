@@ -1,0 +1,7 @@
+interface:
+  display_name: "Navigation Slop Repair"
+  short_description: "Identifies and repairs bloated sidebars, generic navigation labels, arbitrary icons,..."
+  default_prompt: "Use navigation-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Slop Regression Review"
+  short_description: "Reviews later AI-generated changes for reintroduced slop patterns and protects the..."
+  default_prompt: "Use slop-regression-review on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Unslop Ui"
+  short_description: "Turns generic, AI-looking interfaces into coherent, product-specific UI through an..."
+  default_prompt: "Use unslop-ui on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

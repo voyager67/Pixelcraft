@@ -1,0 +1,7 @@
+interface:
+  display_name: "Landing Page Slop Repair"
+  short_description: "Fixes generic AI-generated landing pages: centered-template heroes, vague value..."
+  default_prompt: "Use landing-page-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

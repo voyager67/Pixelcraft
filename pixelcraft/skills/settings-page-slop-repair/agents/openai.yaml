@@ -1,0 +1,7 @@
+interface:
+  display_name: "Settings Page Slop Repair"
+  short_description: "Repairs bloated settings pages with arbitrary cards, inconsistent toggles, unclear..."
+  default_prompt: "Use settings-page-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

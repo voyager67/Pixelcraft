@@ -1,0 +1,7 @@
+interface:
+  display_name: "Form Ui Slop Repair"
+  short_description: "Repairs generic and incomplete AI-built forms, including placeholder-only labels,..."
+  default_prompt: "Use form-ui-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

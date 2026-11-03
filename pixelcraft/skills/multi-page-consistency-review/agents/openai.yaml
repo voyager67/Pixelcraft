@@ -1,0 +1,7 @@
+interface:
+  display_name: "Multi Page Consistency Review"
+  short_description: "Finds cross-route AI design drift, inconsistent components, typography, spacing, icon..."
+  default_prompt: "Use multi-page-consistency-review on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

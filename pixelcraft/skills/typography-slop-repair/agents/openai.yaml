@@ -1,0 +1,7 @@
+interface:
+  display_name: "Typography Slop Repair"
+  short_description: "Fixes AI-looking typography: arbitrary font stacks, too many weights and sizes, shouty..."
+  default_prompt: "Use typography-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

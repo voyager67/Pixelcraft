@@ -1,0 +1,7 @@
+interface:
+  display_name: "Microcopy Slop Repair"
+  short_description: "Rewrites generic, hype-heavy, repetitive, or robotically phrased UI copy into concise..."
+  default_prompt: "Use microcopy-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

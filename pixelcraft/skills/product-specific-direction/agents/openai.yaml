@@ -1,0 +1,7 @@
+interface:
+  display_name: "Product Specific Direction"
+  short_description: "Derives a distinctive visual direction from an existing product so AI-assisted..."
+  default_prompt: "Use product-specific-direction on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

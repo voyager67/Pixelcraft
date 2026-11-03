@@ -1,0 +1,7 @@
+interface:
+  display_name: "Modal Dialog Slop Repair"
+  short_description: "Finds overused or poorly structured AI-built modals, oversized dialog shells, unclear..."
+  default_prompt: "Use modal-dialog-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

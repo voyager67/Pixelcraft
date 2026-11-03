@@ -1,0 +1,7 @@
+interface:
+  display_name: "Content Density Repair"
+  short_description: "Balances information density when AI-built interfaces are either excessively sparse..."
+  default_prompt: "Use content-density-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

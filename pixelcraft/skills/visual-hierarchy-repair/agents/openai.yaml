@@ -1,0 +1,7 @@
+interface:
+  display_name: "Visual Hierarchy Repair"
+  short_description: "Repairs flat or chaotic AI-built hierarchy by clarifying primary task, scan path,..."
+  default_prompt: "Use visual-hierarchy-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Slop Remediation Quality Gate"
+  short_description: "Verifies an AI-slop remediation pass has actually improved the interface without..."
+  default_prompt: "Use slop-remediation-quality-gate on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

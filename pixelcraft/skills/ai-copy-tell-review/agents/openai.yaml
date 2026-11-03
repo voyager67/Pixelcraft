@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ai Copy Tell Review"
+  short_description: "Reviews UI and marketing copy for common synthetic-writing tells such as vague..."
+  default_prompt: "Use ai-copy-tell-review on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

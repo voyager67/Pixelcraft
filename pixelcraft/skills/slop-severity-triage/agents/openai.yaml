@@ -1,0 +1,7 @@
+interface:
+  display_name: "Slop Severity Triage"
+  short_description: "Ranks AI-slop findings by user harm, trust impact, visibility, recurrence, and repair..."
+  default_prompt: "Use slop-severity-triage on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

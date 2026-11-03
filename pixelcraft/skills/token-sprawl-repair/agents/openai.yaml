@@ -1,0 +1,7 @@
+interface:
+  display_name: "Token Sprawl Repair"
+  short_description: "Finds duplicated, near-duplicate, unused, and contradictory design tokens produced by..."
+  default_prompt: "Use token-sprawl-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

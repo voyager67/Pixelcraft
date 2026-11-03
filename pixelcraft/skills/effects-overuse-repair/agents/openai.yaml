@@ -1,0 +1,7 @@
+interface:
+  display_name: "Effects Overuse Repair"
+  short_description: "Reduces gratuitous gradients, glows, blur, glassmorphism, shadows, borders, and..."
+  default_prompt: "Use effects-overuse-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

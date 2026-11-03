@@ -1,0 +1,15 @@
+PIXELCRAFT — LICENSE NOTICE
+
+Unless a file or directory is expressly marked otherwise, original Pixelcraft skill content, documentation, examples, and scripts are licensed under the Creative Commons Attribution-NonCommercial 4.0 International Public License (CC BY-NC 4.0):
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
+You may share and adapt the covered material for non-commercial purposes, subject to the license terms. You must give appropriate attribution, link to the license, and indicate changes. The full official legal code is at:
+
+https://creativecommons.org/licenses/by-nc/4.0/legalcode.en
+
+EXCEPTION — THIRD-PARTY ADAPTATION
+
+The file skills/unslop-ui/SKILL.md contains adapted material from Unslop by Damir Sokolovsky. That material is licensed under CC BY 4.0, not CC BY-NC 4.0. Its original license terms remain applicable. See THIRD_PARTY_NOTICES.md and LICENSES/CC-BY-4.0.txt. Nothing in this repository restricts rights granted by that upstream license.
+
+This notice is a pointer and summary, not a replacement for the linked Creative Commons legal code. See the precise file-level notices for applicable terms.

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Design System Slop Repair"
+  short_description: "Repairs inconsistent, overgrown, and token-poor design systems that produce repetitive..."
+  default_prompt: "Use design-system-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

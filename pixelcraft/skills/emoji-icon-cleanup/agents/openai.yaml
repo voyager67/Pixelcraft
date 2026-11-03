@@ -1,0 +1,7 @@
+interface:
+  display_name: "Emoji Icon Cleanup"
+  short_description: "Identifies emoji-as-icon, mixed icon families, inconsistent sizes, and decorative..."
+  default_prompt: "Use emoji-icon-cleanup on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

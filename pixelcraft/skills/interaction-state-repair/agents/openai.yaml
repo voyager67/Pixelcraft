@@ -1,0 +1,7 @@
+interface:
+  display_name: "Interaction State Repair"
+  short_description: "Finds polished-looking but fake or incomplete interactions in AI-built UI and adds..."
+  default_prompt: "Use interaction-state-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Visual Regression Guard"
+  short_description: "Creates a repeatable visual regression check for anti-slop redesigns so later AI edits..."
+  default_prompt: "Use visual-regression-guard on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

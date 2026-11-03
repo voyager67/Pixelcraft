@@ -1,0 +1,7 @@
+interface:
+  display_name: "Card Bloat Repair"
+  short_description: "Finds and fixes over-cardification: unnecessary panels, nested cards, stat tiles, pill..."
+  default_prompt: "Use card-bloat-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

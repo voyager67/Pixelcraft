@@ -1,0 +1,7 @@
+interface:
+  display_name: "Color System Repair"
+  short_description: "Repairs arbitrary color usage, over-saturated accents, gradients, low contrast,..."
+  default_prompt: "Use color-system-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

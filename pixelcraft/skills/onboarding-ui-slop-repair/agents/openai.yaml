@@ -1,0 +1,7 @@
+interface:
+  display_name: "Onboarding Ui Slop Repair"
+  short_description: "Repairs generic onboarding flows with excessive steps, vague progress, forced..."
+  default_prompt: "Use onboarding-ui-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

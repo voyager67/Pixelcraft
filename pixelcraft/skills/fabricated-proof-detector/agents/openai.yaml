@@ -1,0 +1,7 @@
+interface:
+  display_name: "Fabricated Proof Detector"
+  short_description: "Finds unsupported testimonials, logos, customer counts, ratings, benchmark claims,..."
+  default_prompt: "Use fabricated-proof-detector on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

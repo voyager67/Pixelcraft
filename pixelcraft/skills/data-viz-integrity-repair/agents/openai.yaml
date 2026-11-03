@@ -1,0 +1,7 @@
+interface:
+  display_name: "Data Viz Integrity Repair"
+  short_description: "Reviews charts and data visualizations for misleading scale, arbitrary color, fake..."
+  default_prompt: "Use data-viz-integrity-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

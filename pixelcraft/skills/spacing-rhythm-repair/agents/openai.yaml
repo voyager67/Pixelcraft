@@ -1,0 +1,7 @@
+interface:
+  display_name: "Spacing Rhythm Repair"
+  short_description: "Detects arbitrary margins, padding, gaps, row heights, and alignment drift that make..."
+  default_prompt: "Use spacing-rhythm-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

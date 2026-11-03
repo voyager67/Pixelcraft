@@ -1,0 +1,7 @@
+interface:
+  display_name: "Visual Asset Slop Audit"
+  short_description: "Audits images, stock art, illustrations, textures, and product screenshots for..."
+  default_prompt: "Use visual-asset-slop-audit on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

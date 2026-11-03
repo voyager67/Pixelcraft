@@ -1,0 +1,7 @@
+interface:
+  display_name: "Screenshot Redline Review"
+  short_description: "Performs a visual redline pass from screenshots or browser captures, mapping visible..."
+  default_prompt: "Use screenshot-redline-review on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

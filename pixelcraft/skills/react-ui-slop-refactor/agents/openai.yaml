@@ -1,0 +1,7 @@
+interface:
+  display_name: "React Ui Slop Refactor"
+  short_description: "Refactors React UI code that produces generic or inconsistent screens, including giant..."
+  default_prompt: "Use react-ui-slop-refactor on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

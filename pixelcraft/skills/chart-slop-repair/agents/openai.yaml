@@ -1,0 +1,7 @@
+interface:
+  display_name: "Chart Slop Repair"
+  short_description: "Repairs decorative or misleading chart components, rainbow palettes, meaningless..."
+  default_prompt: "Use chart-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

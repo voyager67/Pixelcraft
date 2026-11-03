@@ -1,0 +1,7 @@
+interface:
+  display_name: "Table Density Repair"
+  short_description: "Repairs AI-generated tables with weak alignment, inconsistent number formatting,..."
+  default_prompt: "Use table-density-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

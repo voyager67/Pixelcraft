@@ -1,0 +1,7 @@
+interface:
+  display_name: "Motion Slop Repair"
+  short_description: "Removes gratuitous animation, pulsing, parallax, hover theatrics, and scroll effects..."
+  default_prompt: "Use motion-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

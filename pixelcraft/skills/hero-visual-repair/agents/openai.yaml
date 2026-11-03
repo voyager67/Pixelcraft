@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hero Visual Repair"
+  short_description: "Recognizes generic AI hero visuals and rebuilds the first screen around product..."
+  default_prompt: "Use hero-visual-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

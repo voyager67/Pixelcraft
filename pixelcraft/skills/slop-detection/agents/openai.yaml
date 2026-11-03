@@ -1,0 +1,7 @@
+interface:
+  display_name: "Slop Detection"
+  short_description: "Detects observable AI-slop patterns in UI screenshots, live interfaces, and frontend..."
+  default_prompt: "Use slop-detection on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Ecommerce Ui Slop Repair"
+  short_description: "Repairs generic e-commerce UI patterns such as fake urgency, redundant product cards,..."
+  default_prompt: "Use ecommerce-ui-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

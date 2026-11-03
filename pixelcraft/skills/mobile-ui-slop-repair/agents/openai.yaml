@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mobile Ui Slop Repair"
+  short_description: "Improves mobile interfaces that look like desktop layouts compressed into a phone,..."
+  default_prompt: "Use mobile-ui-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

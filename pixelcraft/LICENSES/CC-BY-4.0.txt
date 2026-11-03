@@ -1,0 +1,6 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Canonical license deed: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Applies to adapted upstream material in skills/unslop-ui/SKILL.md. The upstream creator is Damir Sokolovsky; the source is https://github.com/heydamir/unslop. Changes have been made for this collection. The source material must not be relicensed under terms that restrict the rights granted by CC BY 4.0.

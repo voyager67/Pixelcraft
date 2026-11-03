@@ -1,0 +1,7 @@
+interface:
+  display_name: "Accessibility Slop Repair"
+  short_description: "Finds accessibility failures frequently introduced by decorative AI UI: low-contrast..."
+  default_prompt: "Use accessibility-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

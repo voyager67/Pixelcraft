@@ -1,0 +1,7 @@
+interface:
+  display_name: "Slop Audit"
+  short_description: "Produces a detailed evidence-based AI-slop audit of one or more UI screens, grouping..."
+  default_prompt: "Use slop-audit on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

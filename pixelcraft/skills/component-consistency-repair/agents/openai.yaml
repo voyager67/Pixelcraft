@@ -1,0 +1,7 @@
+interface:
+  display_name: "Component Consistency Repair"
+  short_description: "Finds visually similar components implemented with inconsistent padding, radius,..."
+  default_prompt: "Use component-consistency-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

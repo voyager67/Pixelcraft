@@ -1,0 +1,7 @@
+interface:
+  display_name: "Tailwind Slop Cleanup"
+  short_description: "Cleans AI-generated Tailwind CSS marked by arbitrary values, class soup, duplicated..."
+  default_prompt: "Use tailwind-slop-cleanup on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

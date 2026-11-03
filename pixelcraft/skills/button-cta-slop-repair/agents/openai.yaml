@@ -1,0 +1,7 @@
+interface:
+  display_name: "Button Cta Slop Repair"
+  short_description: "Fixes generic or misleading buttons and calls to action, including vague labels,..."
+  default_prompt: "Use button-cta-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

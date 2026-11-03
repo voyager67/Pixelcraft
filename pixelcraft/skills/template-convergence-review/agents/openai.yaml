@@ -1,0 +1,7 @@
+interface:
+  display_name: "Template Convergence Review"
+  short_description: "Detects when multiple screens or products converge on the same generic AI/SaaS..."
+  default_prompt: "Use template-convergence-review on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

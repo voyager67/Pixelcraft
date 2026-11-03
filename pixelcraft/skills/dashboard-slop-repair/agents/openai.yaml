@@ -1,0 +1,7 @@
+interface:
+  display_name: "Dashboard Slop Repair"
+  short_description: "De-generifies AI-built dashboards by removing meaningless stat cards, redundant..."
+  default_prompt: "Use dashboard-slop-repair on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true

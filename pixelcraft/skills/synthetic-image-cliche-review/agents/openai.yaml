@@ -1,0 +1,7 @@
+interface:
+  display_name: "Synthetic Image Cliche Review"
+  short_description: "Reviews illustrations and imagery for generic synthetic-looking visual tropes and..."
+  default_prompt: "Use synthetic-image-cliche-review on the current interface. Follow its evidence, preservation, and verification rules."
+
+policy:
+  allow_implicit_invocation: true
