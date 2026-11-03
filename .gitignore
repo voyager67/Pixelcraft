@@ -1,15 +1,41 @@
 .DS_Store
 Thumbs.db
+
+# Environment and local credential files
 .env
 .env.*
 !.env.example
+.npmrc
+.pypirc
+.netrc
+.git-credentials
+.aws/
+.azure/
+.gcloud/
+.ssh/id_*
+.ssh/config
+.kube/config
+
+# Private keys, certificates, and credential stores
 *.pem
 *.key
 *.p12
 *.pfx
+*.crt
+*.cer
+*.der
+*.p8
+*.jks
+*.keystore
+*.mobileprovision
+*.ovpn
 *.sqlite
 *.db
+*.tfstate
+*.tfstate.*
 *.log
+
+# Build and local development output
 node_modules/
 dist/
 build/
