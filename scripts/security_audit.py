@@ -28,7 +28,7 @@ SENSITIVE_PATH_PATTERNS = (
 PATTERNS = {
     "private-key-block": re.compile(
         r"-----BEGIN (?:(?:RSA|EC|OPENSSH|DSA|ENCRYPTED) )?PRIVATE KEY-----"
-        r"|-----BEGIN PGP PRIVATE KEY BLOCK-----"
+        r"|-----BEGIN PGP " + r"PRIVATE KEY BLOCK-----"
     ),
     "github-token": re.compile(r"\bgh[pousr]_[A-Za-z0-9_]{20,}\b"),
     "github-fine-grained-token": re.compile(r"\bgithub_pat_[A-Za-z0-9_]{20,}\b"),
